@@ -1,12 +1,19 @@
-Currency Converter Telegram Bot
+# Currency Converter Telegram Bot- Educational Project
 
-Телеграм Бот для конвертации валют. Имя в телеграм @BotCurrencyExchange.
+Telegram Bot for Currency Conversion. The bot's name in Telegram is @BotCurrencyExchange.
 
-Бот возвращает цену на определённое количество валюты (доллар, евро, белорусский рубль, злотый) Пользователь должен отправить сообщение боту (через пробел) в виде:
+The bot returns the price for a specified amount of currency (USD, EUR, Belarusian Ruble, Polish Zloty).
 
-Название валюты, из которой конвертируем
-Название валюты, в которую конвертируем
-Количество первой валюты (используя цифры)
-Список доступных команд: /start - для начала работы /help - инструкции /currencies - доступные валюты /convert- для конвертации
+The user should send a message to the bot (with spaces) in the following format:
 
-t.me/CurrencyExchangeQALBot
+Currency name to convert from  
+Currency name to convert to  
+Amount of the first currency (using numbers)
+
+List of available commands:  
+/start - to start the bot  
+/help - instructions  
+/currencies - list of available currencies  
+/convert - to perform a currency conversion
+
+[Bot](t.me/CurrencyExchangeQALBot)
